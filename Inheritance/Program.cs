@@ -31,10 +31,10 @@ namespace Inheritance
             snake.Color = "brown with a diamond pattern";
 
             Console.WriteLine($"These snakes are {snake.Color}.  They live " +
-                $"in {snake.LivingSpace}, and are scaly");
+                $"in {snake.LivingSpace}.");
             Console.WriteLine();
             Console.WriteLine($"One of my favorite birds is the macaw.  Especially " +
-                $"the {firstBird.Color} macaw.");
+                $"the {firstBird.Color} and gold macaw.");
             Console.WriteLine();
         }
     }
