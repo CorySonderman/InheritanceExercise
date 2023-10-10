@@ -11,11 +11,7 @@ namespace Inheritance
     // Set this class to inherit from your Animal Class
     public class Reptile : Animal
     {
-        public Reptile() 
-        {
-         IsColdBlooded = true;
-         IsScaly = true;
-        }
+      
         public bool IsColdBlooded { get; set; }
         public string LivingSpace { get; set; }
         public bool IsScaly { get; set; }

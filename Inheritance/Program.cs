@@ -13,11 +13,12 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
-            var  firstBird = new Bird();
-            firstBird.Color = "blue";
-            firstBird.CanTalk = true;
-            firstBird.CanFly = true;
-            firstBird.Migrate = false;
+            var  bird = new Bird();
+            bird.Color = "blue";
+            bird.CanTalk = true;
+            bird.CanFly = true;
+            bird.Migrate = false;
+            bird.LandSeaOrAir = "air";
 
 
             /*Create an object of your Reptile class
@@ -27,14 +28,13 @@ namespace Inheritance
              */
 
             var snake = new Reptile();
-            snake.LivingSpace = "trees";
             snake.Color = "brown with a diamond pattern";
-
-            Console.WriteLine($"These snakes are {snake.Color}.  They live " +
-                $"in {snake.LivingSpace}.");
+            snake.LandSeaOrAir = "brush and under dead trees";
+            Console.WriteLine($"These snakes are {snake.Color}.  They are often " +
+                $"found in {snake.LandSeaOrAir}.");
             Console.WriteLine();
             Console.WriteLine($"One of my favorite birds is the macaw.  Especially " +
-                $"the {firstBird.Color} and gold macaw.");
+                $"the {bird.Color} and gold macaw.  They are large birds that rule the {bird.LandSeaOrAir}.");
             Console.WriteLine();
         }
     }

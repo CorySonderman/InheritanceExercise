@@ -10,10 +10,7 @@ namespace Inheritance
     // give this class 4 members that all Animals have in common
     public class Animal
     {
-        public Animal() 
-        {
-         
-        }
+      
         public bool IsAlive {  get; set; }
         public string LandSeaOrAir { get; set; }
         public int Age { get; set; }
